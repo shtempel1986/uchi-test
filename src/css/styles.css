@@ -17,6 +17,18 @@ body {
 
 .task {
   text-align: center; }
+  .task__span {
+    padding-left: 5px;
+    padding-right: 5px;
+    display: inline-block; }
+    .task__span_invalid {
+      background-color: yellow; }
+  .task__input {
+    font-size: 28px;
+    width: 30px;
+    text-align: center; }
+    .task__input_invalid {
+      color: red; }
 
 .arrows {
   height: 166px;
@@ -50,6 +62,8 @@ body {
     font-size: 28px;
     width: 30px;
     text-align: center; }
+    .arrow__input_invalid {
+      color: red; }
   .arrow__img {
     position: absolute;
     bottom: 0;

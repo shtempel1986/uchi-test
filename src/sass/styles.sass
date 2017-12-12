@@ -17,6 +17,19 @@ body
 
 .task
 	text-align: center
+	&__span
+		padding-left: 5px
+		padding-right: 5px
+		display: inline-block
+		&_invalid
+			background-color: yellow
+	&__input
+		font-size: 28px
+		width: 30px
+		text-align: center
+		&_invalid
+			color: red
+
 
 .arrows
 	height: 166px
@@ -48,6 +61,8 @@ body
 		font-size: 28px
 		width: 30px
 		text-align: center
+		&_invalid
+			color: red
 	&__img
 		position: absolute
 		bottom: 0
