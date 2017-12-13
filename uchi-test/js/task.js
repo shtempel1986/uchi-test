@@ -9,12 +9,12 @@ var _createClass = function () { function defineProperties(target, props) { for 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 var Task = function () {
-	function Task(starDistance, endDistance) {
+	function Task() {
 		_classCallCheck(this, Task);
 
-		this._a = Math.floor(Math.random() * (starDistance[1] - starDistance[0] + 1) + 6);
+		this._a = Math.floor(Math.random() * 4 + 6);
 
-		this._b = Math.floor(Math.random() * (endDistance[1] - endDistance[0] + 1) + endDistance[0] - this._a);
+		this._b = Math.floor(Math.random() * 4 + 11 - this._a);
 
 		$('.task__a').html(this._a);
 

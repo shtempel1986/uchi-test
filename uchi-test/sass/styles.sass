@@ -1,0 +1,73 @@
+body
+	font-size: 32px
+	font-family: Arial, sans-serif
+	min-height: 100vh
+	margin: 0
+	padding: 0
+	line-height: 100vh
+
+.axis
+	height: 83px
+	width: 875px
+	margin-left: auto
+	margin-right: auto
+	background-size: contain
+	background-repeat: no-repeat
+	background-position: center 0
+
+.task
+	text-align: center
+	&__span
+		padding-left: 5px
+		padding-right: 5px
+		display: inline-block
+		&_invalid
+			background-color: yellow
+	&__input
+		font-size: 28px
+		width: 30px
+		text-align: center
+		&_invalid
+			color: red
+
+
+.arrows
+	height: 166px
+	width: 875px
+	margin-left: auto
+	margin-right: auto
+	position: relative
+	z-index: 10
+
+.wrapper
+	display: inline-block
+	vertical-align: middle
+	width: 100%
+	line-height: 1.5
+
+.arrow
+	position: absolute
+	width: 360px
+	height: (360px*.28)
+	bottom: -19px
+	left: 33px
+	&__label
+		position: absolute
+		z-index: 20
+		top: -46px
+		left: 50%
+		transform: translate(-50%,0)
+	&__input
+		font-size: 28px
+		width: 30px
+		text-align: center
+		&_invalid
+			color: red
+	&__img
+		position: absolute
+		bottom: 0
+		left: 0
+		width: 102%
+		z-index: 10
+	&__span
+		font-size: 28px

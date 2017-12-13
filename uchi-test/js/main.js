@@ -23,7 +23,7 @@ jQuery.fn.forceNumericOnly = function () {
 	});
 };
 
-var task = new _task2.default([6, 9], [11, 14]);
+var task = new _task2.default();
 
 var arrowA = new _arrow2.default(0, task.getA(), $('.task__a'));
 

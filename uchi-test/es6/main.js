@@ -18,7 +18,7 @@ jQuery.fn.forceNumericOnly =
 		});
 	};
 
-let task = new Task([6,9],[11,14]);
+let task = new Task();
 
 let arrowA = new Arrow(0, task.getA(), $('.task__a'));
 

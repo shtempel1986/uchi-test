@@ -39,7 +39,7 @@ var Arrow = function () {
 
 				this._target = target;
 
-				this._input = this._$el.find('input').forceNumericOnly();
+				this._input = this._$el.find('input');
 
 				setTimeout(function () {
 						_this._input.focus();
